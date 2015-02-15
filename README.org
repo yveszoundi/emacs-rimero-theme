@@ -1,0 +1,29 @@
+#+TITLE: Emacs Rimero Theme
+
+Personal theme with Dark/Light flavors.
+
+Those themes were created using the wonderful [[https://github.com/mswift42/theme-creator][Theme Creator tool]].
+
+* Screenshots
+** Light theme
+
+[[./images/screenshot-light.gif]]
+
+** Dark theme
+[[./images/screenshot-dark.gif]]
+
+* Installation
+
+** Cask
+
+:: (depends-on "emacs-rimero-theme" 
+:: :git "https://github.com/yveszoundi/emacs-rimero-theme")
+
+** El-Get
+
+:: (:name emacs-rimero-theme
+::  :website "https://github.com/yveszoundi/emacs-rimero-theme/"
+::  :description "Emacs Rimero Theme."
+::  :type github
+::  :pkgname "yveszoundi/emacs-rimero-theme"
+::  :prepare (add-to-list 'custom-theme-load-path default-directory))
