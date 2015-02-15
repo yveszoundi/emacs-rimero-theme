@@ -7,23 +7,23 @@ Those themes were created using the wonderful [[https://github.com/mswift42/them
 * Screenshots
 ** Light theme
 
-[[./images/screenshot-light.gif]]
+[[./images/screenshot-light.png]]
 
 ** Dark theme
-[[./images/screenshot-dark.gif]]
+[[./images/screenshot-dark.png]]
 
 * Installation
 
 ** Cask
 
-:: (depends-on "emacs-rimero-theme" 
-:: :git "https://github.com/yveszoundi/emacs-rimero-theme")
+:  (depends-on "emacs-rimero-theme" 
+:  :git "https://github.com/yveszoundi/emacs-rimero-theme")
 
 ** El-Get
 
-:: (:name emacs-rimero-theme
-::  :website "https://github.com/yveszoundi/emacs-rimero-theme/"
-::  :description "Emacs Rimero Theme."
-::  :type github
-::  :pkgname "yveszoundi/emacs-rimero-theme"
-::  :prepare (add-to-list 'custom-theme-load-path default-directory))
+:  (:name emacs-rimero-theme
+:   :website "https://github.com/yveszoundi/emacs-rimero-theme/"
+:   :description "Emacs Rimero Theme."
+:   :type github
+:   :pkgname "yveszoundi/emacs-rimero-theme"
+:   :prepare (add-to-list 'custom-theme-load-path default-directory))
