@@ -2,7 +2,7 @@
 
 Personal theme with Dark/Light flavors.
 
-Those themes were created using the wonderful [[https://github.com/mswift42/theme-creator][Theme Creator tool]].
+Those themes were created using the wonderful [[https://github.com/mswift42/theme-creator][Theme Creator Tool]].
 
 * Screenshots
 ** Light theme
