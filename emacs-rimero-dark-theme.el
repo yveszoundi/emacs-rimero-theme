@@ -5,7 +5,7 @@
 ;; Author: Yves Zoundi
 ;; https://github.com/yveszoundi/emacs-rimero-theme
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 
