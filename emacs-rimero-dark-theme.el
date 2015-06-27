@@ -1,9 +1,10 @@
+
 ;;; emacs-rimero-dark-theme.el --- Emacs 24 theme with a dark background.
 
 ;; Copyright (C) 2014 , Yves Zoundi
 
 ;; Author: Yves Zoundi
-;; https://github.com/yveszoundi/emacs-rimero-theme
+;; 
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -38,17 +39,17 @@
        (bg2 "#181818")
        (bg3 "#282828")
        (bg4 "#393939")
-       (key2 "#4874bb")
-       (key3 "#235a9d")
-       (builtin "#af8888")
-       (keyword "#2265b2")
-       (const   "#acdd5d")
-       (comment "#a4aaa4")
-       (func    "#ce26b1")
-       (str     "#ff5912")
-       (type    "#a0a82a")
-       (var     "#3490db")
-       (warning "#db9e27"))
+       (key2 "#b99b70")
+       (key3 "#9b7e55")
+       (builtin "#77a16a")
+       (keyword "#b08f60")
+       (const   "#9191cb")
+       (comment "#a5a5a5")
+       (func    "#77a5a8")
+       (str     "#ca7f6b")
+       (type    "#b4868e")
+       (var     "#be81b0")
+       (warning "#ff0000"))
    (custom-theme-set-faces
    'emacs-rimero-dark
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -232,8 +233,13 @@
         `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
         `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
         `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
-        `(web-mode-html-tag-face ((,class (:foreground ,builtin))))))
-
+        `(web-mode-html-tag-face ((,class (:foreground ,builtin))))
+        `(jde-java-font-lock-package-face ((t (:foreground ,var))))
+        `(jde-java-font-lock-public-face ((t (:foreground ,keyword))))
+        `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
+        `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
+        `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+        `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
 
 ;;;###autoload
 (when load-file-name
