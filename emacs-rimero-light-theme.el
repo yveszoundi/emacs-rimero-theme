@@ -1,10 +1,9 @@
+;;; emacs-rimero-light-theme.el --- Emacs theme with a light background.
 
-;;; emacs-rimero-light-theme.el --- Emacs 24 theme with a light background.
+;; Copyright (C) 2014 , yveszoundi
 
-;; Copyright (C) 2014 , Yves Zoundi
-
-;; Author: Yves Zoundi
-;; 
+;; Author: yveszoundi
+;; https://github.com/yveszoundi/emacs-rimero-theme/
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -39,17 +38,17 @@
        (bg2 "#e8e8e8")
        (bg3 "#d1d1d1")
        (bg4 "#bbbbbb")
-       (key2 "#4864c0")
-       (key3 "#214aa2")
-       (builtin "#d45c75")
-       (keyword "#1f53b8")
-       (const   "#a64edf")
-       (comment "#188f1d")
-       (func    "#728bd2")
-       (str     "#c963b5")
-       (type    "#b39740")
-       (var     "#d46239")
-       (warning "#db9e27"))
+       (key2 "#ca6595")
+       (key3 "#ab4879")
+       (builtin "#9fcd51")
+       (keyword "#c25089")
+       (const   "#4b3a40")
+       (comment "#606060")
+       (func    "#7fae86")
+       (str     "#999dc5")
+       (type    "#c36d42")
+       (var     "#8145bf")
+       (warning "#ff0000"))
    (custom-theme-set-faces
    'emacs-rimero-light
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -156,7 +155,6 @@
         `(rainbow-delimiters-depth-6-face ((,class :foreground ,fg1)))
         `(rainbow-delimiters-depth-7-face ((,class :foreground ,type)))
         `(rainbow-delimiters-depth-8-face ((,class :foreground ,var)))
-	`(highlight-symbol-face ((,class :foreground ,keyword :background, bg3)))
         `(magit-item-highlight ((,class :background ,bg3)))
         `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
         `(magit-hunk-heading           ((,class (:background ,bg3))))
@@ -240,6 +238,7 @@
         `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+        `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
 
 ;;;###autoload

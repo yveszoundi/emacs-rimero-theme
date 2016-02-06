@@ -1,10 +1,9 @@
-
-;;; emacs-rimero-dark-theme.el --- Emacs 24 theme with a dark background.
+;;; emacs-rimero-dark-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , Yves Zoundi
 
 ;; Author: Yves Zoundi
-;; 
+;; https://github.com/yveszoundi/emacs-rimero-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -39,16 +38,16 @@
        (bg2 "#181818")
        (bg3 "#282828")
        (bg4 "#393939")
-       (key2 "#b99b70")
-       (key3 "#9b7e55")
-       (builtin "#77a16a")
-       (keyword "#b08f60")
-       (const   "#9191cb")
-       (comment "#a5a5a5")
-       (func    "#77a5a8")
-       (str     "#ca7f6b")
-       (type    "#b4868e")
-       (var     "#be81b0")
+       (key2 "#73c7c2")
+       (key3 "#54a9a4")
+       (builtin "#e56950")
+       (keyword "#5ec0bb")
+       (const   "#a976e6")
+       (comment "#cfcfcf")
+       (func    "#7ecc4e")
+       (str     "#cea14f")
+       (type    "#df70ac")
+       (var     "#77aa5e")
        (warning "#ff0000"))
    (custom-theme-set-faces
    'emacs-rimero-dark
@@ -156,7 +155,6 @@
         `(rainbow-delimiters-depth-6-face ((,class :foreground ,fg1)))
         `(rainbow-delimiters-depth-7-face ((,class :foreground ,type)))
         `(rainbow-delimiters-depth-8-face ((,class :foreground ,var)))
-	`(highlight-symbol-face ((,class :foreground ,keyword :background, bg3)))
         `(magit-item-highlight ((,class :background ,bg3)))
         `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
         `(magit-hunk-heading           ((,class (:background ,bg3))))
@@ -240,6 +238,7 @@
         `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+        `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
 
 ;;;###autoload
