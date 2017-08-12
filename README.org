@@ -5,10 +5,10 @@ Emacs theme "easy on the eyes", with a dark background, for UI and terminal use.
 * Screenshots
 ** GUI (Windows -> Using consolas font)
 
-[[./images/rimero-theme-windows-ui.png]]
+[[./screenshots/rimero-theme-windows-ui.png]]
 
 ** Terminal (OSX -> Using Dejavu Sans Mono font)
-[[./images/rimero-theme-osx-terminal.png]]
+[[./screenshots/rimero-theme-osx-terminal.png]]
 
 * Installation
 
