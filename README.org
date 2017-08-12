@@ -12,15 +12,25 @@ Emacs theme with light colours on a dark background, for UI and terminal usage.
 
 * Installation
 
-Once you've performed the download or package installation via one of the approaches below, load the theme.
+Once you've performed the package installation via one of the approaches below, please load the theme.
 
 =M-x load-theme= =rimero= =<RET>=
 
-** Package.el (recommended)
+** MELPA - Package.el (recommended)
 : M-x package-install
 : emacs-rimero-theme
 : RET
 
+** MELPA - use-package
+
+#+BEGIN_SRC emacs-lisp
+  (use-package rimero-theme
+    :ensure t
+    :defer t
+    :init (add-hook 'after-init-hook
+                    (lambda ()
+                      (load-theme 'rimero t))))
+#+END_SRC
 ** Cask
 
 :  (depends-on "emacs-rimero-theme" 
