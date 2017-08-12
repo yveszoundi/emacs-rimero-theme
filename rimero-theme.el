@@ -1,13 +1,16 @@
 ;;; rimero-theme.el --- Emacs theme with a dark background.
 
-;; Copyright (C) 2014 , Yves Zoundi
+;; Copyright (C) 2017 , Yves Zoundi
 
-;; Author: Yves Zoundi
-;; https://github.com/yveszoundi/emacs-rimero
-;; Version: 0.1
+;; Author: Yves Zoundi <yveszoundi@users.sf.net>
+;; Maintainer: Yves Zoundi <yveszoundi@users.sf.net>
+;; Created: 12th August 2017
+;; URL: https://github.com/yveszoundi/emacs-rimero-theme
+;; Keywords: faces, theme, dark, light colors
+;; Version: 0.0.1
 ;; Package-Requires: ((emacs "24"))
-;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
+;; License: GPL3
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -25,6 +28,8 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
+
+;; Theme with light colours on a dark background, for UI and terminal usage.
 
 ;;; Code:
 
