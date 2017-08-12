@@ -1,18 +1,25 @@
 #+TITLE: Emacs Rimero Theme
 
-Personal theme with Dark/Light flavors.
-
-Those themes were created using the wonderful [[https://github.com/mswift42/theme-creator][Theme Creator Tool]].
+Emacs theme "easy on the eyes", with a dark background, for UI and terminal use.
 
 * Screenshots
-** Light theme
+** GUI (Windows -> Using consolas font)
 
-[[./images/screenshot-light.png]]
+[[./images/rimero-theme-windows-ui.png]]
 
-** Dark theme
-[[./images/screenshot-dark.png]]
+** Terminal (OSX -> Using Dejavu Sans Mono font)
+[[./images/rimero-theme-osx-terminal.png]]
 
 * Installation
+
+Once you've performed the download or package installation via one of the approaches below, load the theme.
+
+=M-x load-theme= =rimero= =<RET>=
+
+** Package.el (recommended)
+: M-x package-install
+: emacs-rimero-theme
+: RET
 
 ** Cask
 
@@ -27,3 +34,8 @@ Those themes were created using the wonderful [[https://github.com/mswift42/them
 :   :type github
 :   :pkgname "yveszoundi/emacs-rimero-theme"
 :   :prepare (add-to-list 'custom-theme-load-path default-directory))
+
+** Manual download
+
+- Clone this repository or download it as an archive (from the GitHub Web UI)
+- Add the local repository folder to your =custom-theme-load-path=

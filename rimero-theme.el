@@ -1,9 +1,9 @@
-;;; emacs-rimero-light-theme.el --- Emacs theme with a light background.
+;;; rimero-theme.el --- Emacs theme with a dark background.
 
-;; Copyright (C) 2014 , yveszoundi
+;; Copyright (C) 2014 , Yves Zoundi
 
-;; Author: yveszoundi
-;; https://github.com/yveszoundi/emacs-rimero-theme/
+;; Author: Yves Zoundi
+;; https://github.com/yveszoundi/emacs-rimero
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -28,29 +28,29 @@
 
 ;;; Code:
 
- (deftheme emacs-rimero-light)
+ (deftheme rimero)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#303030")
-       (fg2 "#3e3e3e")
-       (fg3 "#4d4d4d")
-       (fg4 "#5c5c5c")
-       (bg1 "#ffffff")
-       (bg2 "#e8e8e8")
-       (bg3 "#d1d1d1")
-       (bg4 "#bbbbbb")
-       (key2 "#ca6595")
-       (key3 "#ab4879")
-       (builtin "#9fcd51")
-       (keyword "#c25089")
-       (const   "#4b3a40")
-       (comment "#606060")
-       (func    "#7fae86")
-       (str     "#999dc5")
-       (type    "#c36d42")
-       (var     "#8145bf")
+       (fg1     "#e0c1a4")
+       (fg2     "#ccb096")
+       (fg3     "#b89f88")
+       (fg4     "#a58f7a")
+       (bg1     "#474646")
+       (bg2     "#545353")
+       (bg3     "#616161")
+       (bg4     "#6f6e6e")
+       (key2    "#ffffff")
+       (key3    "#dfdfdf")
+       (builtin "#e0c1a4")
+       (keyword "#ffffff")
+       (const   "#e0c1a4")
+       (comment "#d4ce7d")
+       (func    "#e0c1a4")
+       (str     "#d6e362")
+       (type    "#0de061")
+       (var     "#77d1b7")
        (warning "#ff0000"))
    (custom-theme-set-faces
-   'emacs-rimero-light
+   'rimero
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -246,10 +246,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'emacs-rimero-light)
+(provide-theme 'rimero)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; emacs-rimero-light-theme.el ends here
+;;; rimero-theme.el ends here
