@@ -1,4 +1,4 @@
-;;; rimero-theme.el --- Emacs theme with a dark background.
+;;; rimero-theme.el --- Theme with a dark background.
 
 ;; Copyright (C) 2017 , Yves Zoundi
 
@@ -141,7 +141,7 @@
         `(js3-function-param-face ((,class (:foreground ,key3))))
         `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
         `(js3-instance-member-face ((,class (:foreground ,const))))
-	`(warning ((,class (:foreground ,warning)))) 
+	`(warning ((,class (:foreground ,warning))))
 	`(ac-completion-face ((,class (:underline t :foreground ,keyword))))
 	`(info-quoted-name ((,class (:foreground ,builtin))))
 	`(info-string ((,class (:foreground ,str))))
@@ -251,7 +251,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'rimero)
+(provide 'rimero-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
