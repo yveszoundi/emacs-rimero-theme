@@ -1,6 +1,6 @@
 #+TITLE: Emacs Rimero Theme
 
-Emacs theme "easy on the eyes", with a dark background, for UI and terminal use.
+Emacs theme with light colours on a dark background, for UI and terminal usage.
 
 * Screenshots
 ** GUI (Windows -> Using consolas font)
