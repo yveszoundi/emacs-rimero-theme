@@ -1,5 +1,7 @@
 #+TITLE: Emacs Rimero Theme
 
+[[https://github.com/yveszoundi/grails-projectile-mode/blob/master/LICENSE][file:http://img.shields.io/badge/license-GNU%20GPLv3-blue.svg]] [[https://melpa.org/#/rimero-theme][file:https://melpa.org/packages/rimero-theme-badge.svg]]
+
 Emacs theme with light colours on a dark background, for UI and terminal usage.
 
 * Screenshots

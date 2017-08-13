@@ -1,4 +1,4 @@
-;;; rimero-theme.el --- Theme with light colours on a dark background, for UI and terminal usage.
+;;; rimero-theme.el --- Theme with a dark background suitable for UI and terminal usage.
 
 ;; Copyright (C) 2017 , Yves Zoundi
 
