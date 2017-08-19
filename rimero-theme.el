@@ -53,7 +53,7 @@
        (str     "#d6e362")
        (type    "#0de061")
        (var     "#77d1b7")
-       (warning "#ff0000"))
+       (warning "#ff00e9"))
    (custom-theme-set-faces
    'rimero
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -244,7 +244,10 @@
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
         `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-        `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
+        `(jde-java-font-lock-number-face ((t (:foreground ,var))))
+        `(erc-notice-face ((t (:foreground ,comment :weight bold))))
+        `(erc-my-nick-face ((t (:foreground ,var :weight bold))))
+        `(erc-input-face ((t (:foreground ,var :weight bold))))))
 
 ;;;###autoload
 (when load-file-name
