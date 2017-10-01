@@ -5,23 +5,25 @@
 Emacs theme with light colours on a dark background, for UI and terminal usage.
 
 * Screenshots
-** GUI (Windows -> Using consolas font)
 
-[[./screenshots/rimero-theme-windows-ui.png]]
+** Linux (XTerm)
+[[./screenshots/rimero-theme-linux.png]]
 
-** Terminal (OSX -> Using Dejavu Sans Mono font)
-[[./screenshots/rimero-theme-osx-terminal.png]]
+** OSX (Terminal)
+[[./screenshots/rimero-theme-mac.png]]
+
+** MS Windows
+[[./screenshots/rimero-theme-windows.png]]
+
 
 * Installation
 
 Once you've performed the package installation via one of the approaches below, please load the theme.
 
-=M-x load-theme= =rimero= =<RET>=
+=M-x load-theme RET rimero RET=
 
 ** MELPA - Package.el (recommended)
-: M-x package-install
-: emacs-rimero-theme
-: RET
+=M-x package-install RET emacs-rimero-theme RET=
 
 ** MELPA - use-package
 
@@ -33,6 +35,7 @@ Once you've performed the package installation via one of the approaches below, 
                     (lambda ()
                       (load-theme 'rimero t))))
 #+END_SRC
+
 ** Cask
 
 :  (depends-on "emacs-rimero-theme" 
