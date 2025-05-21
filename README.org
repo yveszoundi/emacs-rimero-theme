@@ -2,55 +2,28 @@
 
 [[https://github.com/yveszoundi/grails-projectile-mode/blob/master/LICENSE][file:http://img.shields.io/badge/license-GNU%20GPLv3-blue.svg]] [[https://melpa.org/#/rimero-theme][file:https://melpa.org/packages/rimero-theme-badge.svg]]
 
-Emacs theme with light colours on a dark background, for UI and terminal usage.
+Light and dark themes for terminal and GUI usage.
 
 * Screenshots
 
-** Linux (XTerm)
-[[./screenshots/rimero-theme-linux.png]]
+** Dark theme
+[[./screenshots/rimero-dark.jpg]]
 
-** OSX (Terminal)
-[[./screenshots/rimero-theme-mac.png]]
-
-** MS Windows
-[[./screenshots/rimero-theme-windows.png]]
-
+** Light theme
+[[./screenshots/rimero-light.jpg]]
 
 * Installation
 
-Once you've performed the package installation via one of the approaches below, please load the theme.
+It is recommend to use =package.el= ([[https://melpa.org/#/][Melpa]] repository), but there are other methods.
 
-=M-x load-theme RET rimero RET=
-
-** MELPA - Package.el (recommended)
+** MELPA installation
 =M-x package-install RET emacs-rimero-theme RET=
 
-** MELPA - use-package
-
-#+BEGIN_SRC emacs-lisp
-  (use-package rimero-theme
-    :ensure t
-    :defer t
-    :init (add-hook 'after-init-hook
-                    (lambda ()
-                      (load-theme 'rimero t))))
-#+END_SRC
-
-** Cask
-
-:  (depends-on "emacs-rimero-theme" 
-:  :git "https://github.com/yveszoundi/emacs-rimero-theme")
-
-** El-Get
-
-:  (:name emacs-rimero-theme
-:   :website "https://github.com/yveszoundi/emacs-rimero-theme/"
-:   :description "Emacs Rimero Theme."
-:   :type github
-:   :pkgname "yveszoundi/emacs-rimero-theme"
-:   :prepare (add-to-list 'custom-theme-load-path default-directory))
-
-** Manual download
+** Manual installation
 
 - Clone this repository or download it as an archive (from the GitHub Web UI)
 - Add the local repository folder to your =custom-theme-load-path=
+
+* Usage
+
+Load the light theme via =M-x load-theme= and pick your flavor (=rimero-light= or =rimero-dark=).
