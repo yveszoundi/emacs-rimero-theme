@@ -1,6 +1,6 @@
 #+TITLE: Emacs Rimero Theme
 
-[[https://github.com/yveszoundi/grails-projectile-mode/blob/master/LICENSE][file:http://img.shields.io/badge/license-GNU%20GPLv3-blue.svg]] [[https://melpa.org/#/rimero-theme][file:https://melpa.org/packages/rimero-theme-badge.svg]]
+[[https://github.com/yveszoundi/grails-projectile-mode/blob/master/LICENSE][file:http://img.shields.io/badge/license-GNU%20GPLv3-blue.svg]] 
 
 Light and dark themes for terminal and GUI usage.
 
@@ -13,13 +13,6 @@ Light and dark themes for terminal and GUI usage.
 [[./screenshots/rimero-light.jpg]]
 
 * Installation
-
-It is recommend to use =package.el= ([[https://melpa.org/#/][Melpa]] repository), but there are other methods.
-
-** MELPA installation
-=M-x package-install RET emacs-rimero-theme RET=
-
-** Manual installation
 
 - Clone this repository or download it as an archive (from the GitHub Web UI)
 - Add the local repository folder to your =custom-theme-load-path=
